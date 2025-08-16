@@ -32,18 +32,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=majidkhan-dev&show_icons=true&theme=dark&hide_border=true" alt="Majid's GitHub Stats" width="400"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=majidkhan-dev&layout=compact&theme=dark&hide_border=true" alt="Top Languages" width="400"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=majidkhan-dev&theme=dark&hide_border=true" alt="GitHub Streak" width="400"/>
-</p>
-
----
 
 ## 🎓 Education & Certifications
 
@@ -66,11 +54,6 @@
 *🌐 [innovix99.com](https://innovix99.com/)*
 - Built comprehensive admin dashboard for CRUD operations
 - Integrated dynamic SEO management system
-
-### **Full Stack Developer - MERN** | Farmer App (Apr 2025 - Jun 2025)
-*🌐 [Vet Care Platform](https://vetcare-frontend.vercel.app/)*
-- Developed chicken batch management system with health tracking
-- Auto-location feature for nearby veterinary services
 
 ### **Frontend Developer - React.js** | Layali Clothing Brand (Oct 2024 - Nov 2024)
 *🌐 [layaliart.com](https://layaliart.com/)*
@@ -156,10 +139,6 @@ With hands-on experience in building **scalable e-commerce platforms**, **respon
 Always eager to learn and adapt, I'm currently advancing my skills in **Next.js** and **TypeScript** while diving deep into the exciting worlds of **AI**, **blockchain technology**, and **next-generation web development** to stay at the forefront of technological innovation.
 
 ---
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=majidkhan-dev&color=brightgreen&style=for-the-badge" alt="Profile Views"/>
-</p>
 
 <p align="center">
   <em>💻 "Building tomorrow's solutions with today's code" 🚀</em>
