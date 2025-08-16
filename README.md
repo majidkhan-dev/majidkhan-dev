@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Majid Khan 👋</h1>
 
-<p align="center">💻 Associate Software Engineer | 🎓 Final-year Computer Engineering Student | 🚀 MERN Stack & Next.js Developer</p>
+<p align="center">💻 Associate Software Engineer | 🎓 Final-year Computer Engineering Student | 🚀 MERN Stack Developer</p>
 
 <p align="center">🌟 Specializing in C, C++, and modern web technologies | 📍 Building scalable, user-centric solutions from Lahore, Pakistan</p>
 
