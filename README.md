@@ -32,7 +32,6 @@
 
 ---
 
-
 ## 🎓 Education & Certifications
 
 **🎓 Bachelor of Computer Engineering** - COMSATS University, Lahore (2022 - Present) | *CGPA: 3.14*
@@ -59,6 +58,11 @@
 *🌐 [layaliart.com](https://layaliart.com/)*
 - Built bilingual clothing website (Arabic & English)
 - Created interactive product displays with responsive design
+
+### **Frontend Developer - React.js** | Ontrac IT Solutions (Aug 2023 - Oct 2023)
+*🌐 [ontrac.biz](https://ontrac.biz/)*
+- Developed bilingual (Arabic & English) IT solutions website using React.js
+- Showcased company services and implemented client inquiry collection system
 
 ---
 
