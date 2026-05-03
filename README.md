@@ -59,6 +59,10 @@
 
 ## 💼 Work Experience
 
+### 🎓 Full Stack Developer (Next.js) | [EEPCSS](https://eepcss.com) *(03/2026)*
+- Built official website for CSS/PMS/One Paper exam preparation institute
+- Server-side rendered pages with Next.js for fast load times and SEO
+
 ### 🌐 Full Stack Developer (MERN) | [Innovix99](https://innovix99.com) *(Jun – Jul 2025)*
 - Built comprehensive admin dashboard with full CRUD operations
 - Integrated dynamic SEO management system
