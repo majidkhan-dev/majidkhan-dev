@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  🎓 Final-year Computer Engineering Student @ COMSATS University, Lahore &nbsp;|&nbsp; 📍 Pakistan
+  🎓 Computer Engineer from COMSATS University, Lahore &nbsp;|&nbsp; 📍 Pakistan
 </p>
 
 <p align="center">
@@ -59,17 +59,9 @@
 
 ## 💼 Work Experience
 
-### ⚛️ Frontend Developer (React.js) | [Samandarpaar](https://samandarpaar.com) *(Aug 2025)*
-- Developed responsive React.js platform for UK customers to order from Pakistani brands
-- Implemented SEO best practices for enhanced search visibility
-
 ### 🌐 Full Stack Developer (MERN) | [Innovix99](https://innovix99.com) *(Jun – Jul 2025)*
 - Built comprehensive admin dashboard with full CRUD operations
 - Integrated dynamic SEO management system
-
-### ⚛️ Frontend Developer (React.js) | [Layali Clothing](https://layaliart.com) *(Oct – Nov 2024)*
-- Built bilingual (Arabic & English) clothing e-commerce website
-- Created interactive product displays with fully responsive design
 
 ### ⚛️ Frontend Developer (React.js) | [Ontrac IT Solutions](https://ontrac.biz) *(Aug – Oct 2023)*
 - Developed bilingual (Arabic & English) IT solutions website
@@ -79,7 +71,7 @@
 
 ## 🚀 Projects
 
-### 🌡️ AI-based Smart HVAC System — Final Year Project *(In Development)*
+### 🌡️ AI-based Smart HVAC System — Final Year Project
 > ML model deployed on Raspberry Pi as MQTT broker; controls AC via IR signals based on Fanger PMV setpoints; ESP32 sensor nodes with BME280, DS18B20 & PIR
 >
 > **Stack:** Raspberry Pi · ESP32 · ESP-IDF · Python · MQTT · DesignBuilder · EnergyPlus
@@ -88,7 +80,7 @@
 
 ---
 
-### 🔐 Wireless Door Lock System *(In Development)*
+### 🔐 Wireless Door Lock System
 > Low-cost battery-powered lock system using 2 ESP32 nodes communicating via ESP-NOW; solenoid lock, OLED display & buzzer
 >
 > **Stack:** 2× ESP32 · ESP-IDF · ESP-NOW · Solenoid Lock · OLED · Buzzer
@@ -133,15 +125,6 @@
 
 ---
 
-## 🎓 Education
-
-| Degree | Institution | Period | Grade |
-|---|---|---|---|
-| B.Sc. Computer Engineering | COMSATS University, Lahore | 2022 – 2026 | CGPA: 3.14 |
-| Intermediate in Computer Science (ICS) | Government College University, Lahore | 2020 – 2022 | Good |
-| Matriculation | The Punjab School, Township, Lahore | 2018 – 2020 | Very Good |
-
----
 
 ## 📜 Certifications & Training
 
@@ -158,12 +141,6 @@
 | Urdu | Native |
 | English | C1 — Fluent |
 | German | B2 — Business Proficient |
-
----
-
-## 🏆 Achievements
-
-- ⚽ **Football Team Captain** — Computer Engineering Dept, COMSATS University *(6 consecutive semesters, 2022–2026)*
 
 ---
 
