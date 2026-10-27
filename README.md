@@ -1,179 +1,139 @@
-<h1 align="center">Hi, I'm Majid Khan 👋</h1>
+<h1 align="center">Hi, I'm Majid Khan</h1>
 
 <p align="center">
-  🔌 Embedded Systems Developer &nbsp;|&nbsp; 💻 Full Stack Web Developer &nbsp;|&nbsp; 📱 Mobile App Developer
+  Embedded Systems Developer &nbsp;|&nbsp; PCB Designer &nbsp;|&nbsp; Full Stack Web &amp; Mobile Developer
 </p>
 
 <p align="center">
-  🎓 Computer Engineer from COMSATS University, Lahore &nbsp;|&nbsp; 📍 Pakistan
+  BS Computer Engineering, COMSATS University Lahore (2026) &nbsp;|&nbsp; Lahore, Pakistan
 </p>
 
 <p align="center">
-  Building real-world embedded systems with ESP32 & ESP-IDF — and full-stack web & mobile apps with MERN, Next.js & React Native
+  I build embedded systems with ESP32 &amp; ESP-IDF and design PCBs in KiCad, from 2-layer power supplies to 4-layer microcontroller boards.
 </p>
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-### 🔌 Embedded & Hardware
+### Embedded & Hardware
 <p align="center">
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/ESP--IDF-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
   <img src="https://img.shields.io/badge/ESP--NOW-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white"/>
   <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/STM32%20(basics)-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+  <img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white"/>
 </p>
 
-### 💻 Languages
+**Protocols:** UART · I2C · SPI · MQTT · CoAP · BLE · ESP-NOW
+**PCB:** schematic capture · 2- and 4-layer layout · custom footprints & libraries · DRC / DFM · Gerber & drill files · BOM
+
+### Languages
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </p>
 
-### 🌐 Web & Mobile
+### Web, Mobile & Tools
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/React%20Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-</p>
-
-### 🗄️ Databases & Tools
-<p align="center">
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-  <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=eclipsemosquitto&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
 </p>
 
 ---
 
-## 💼 Work Experience
+## Embedded Projects
 
-### 🎓 Full Stack Developer (Next.js) | [EEPCSS](https://eepcss.com) *(03/2026)*
-- Built official website for CSS/PMS/One Paper exam preparation institute
-- Server-side rendered pages with Next.js for fast load times and SEO
+### AI-based Smart HVAC System — Final Year Project
+> LightGBM comfort model running on a Raspberry Pi 5 (also the MQTT broker); ESP32 sensor nodes with BME280, DS18B20 and PIR; the AC is controlled over IR towards Fanger PMV comfort setpoints; validated with hardware-in-the-loop simulation in DesignBuilder + EnergyPlus.
+>
+> **After graduation:** converted the model to plain C with m2cgen and moved inference and the MQTT broker onto a single **ESP32-S3**, removing the Raspberry Pi entirely.
+>
+> **Stack:** ESP32 / ESP32-S3 · ESP-IDF · Raspberry Pi · Python · LightGBM · m2cgen · MQTT · DesignBuilder · EnergyPlus
+>
+> [github.com/majidkhan-dev/ai-smart-hvac-system](https://github.com/majidkhan-dev/ai-smart-hvac-system)
 
-### 🌐 Full Stack Developer (MERN) | [Innovix99](https://innovix99.com) *(Jun – Jul 2025)*
-- Built comprehensive admin dashboard with full CRUD operations
-- Integrated dynamic SEO management system
+### DOSEMATIC — Automatic Medication Dispenser *(commissioned, delivered as a product)*
+> Motor rotates at dose time; TCRT5000 IR sensor detects the remaining dose and prevents double dispensing; delivered in a custom enclosure.
+>
+> **Stack:** ESP32 · ESP-IDF · ULN2003 · DC motor · TCRT5000 · SSD1306
+>
+> [github.com/majidkhan-dev/dosemetic-esp-code](https://github.com/majidkhan-dev/dosemetic-esp-code)
 
-### ⚛️ Frontend Developer (React.js) | [Ontrac IT Solutions](https://ontrac.biz) *(Aug – Oct 2023)*
-- Developed bilingual (Arabic & English) IT solutions website
-- Implemented client inquiry collection system
+### Wireless Door Lock System
+> Battery-powered two-node system using ESP-NOW (no Wi-Fi infrastructure needed); drives a solenoid lock with OLED and buzzer feedback.
+>
+> **Stack:** 2× ESP32 · ESP-IDF · ESP-NOW · solenoid lock · IRLZ34N · 18650 2S · OLED · buzzer
+>
+> [github.com/majidkhan-dev/wireless-door-lock-esp32](https://github.com/majidkhan-dev/wireless-door-lock-esp32)
+
+### PIR Sensor Alarm System
+> Motion detection with buzzer alert and 16×2 LCD display.
+>
+> **Stack:** ESP32 · ESP-IDF · PIR sensor · buzzer · 16×2 LCD
+>
+> [github.com/majidkhan-dev/pir-motion-alarm-esp32](https://github.com/majidkhan-dev/pir-motion-alarm-esp32)
 
 ---
 
-## 🚀 Projects
+## PCB Design (KiCad)
 
-### 🌡️ AI-based Smart HVAC System — Final Year Project
-> ML model deployed on Raspberry Pi as MQTT broker; controls AC via IR signals based on Fanger PMV setpoints; ESP32 sensor nodes with BME280, DS18B20 & PIR
->
-> **Stack:** Raspberry Pi · ESP32 · ESP-IDF · Python · MQTT · DesignBuilder · EnergyPlus
->
-> 🔗 [github.com/majidkhan-dev/ai-smart-hvac-system](https://github.com/majidkhan-dev/ai-smart-hvac-system)
-
----
-
-### 🔐 Wireless Door Lock System
-> Low-cost battery-powered lock system using 2 ESP32 nodes communicating via ESP-NOW; solenoid lock, OLED display & buzzer
->
-> **Stack:** 2× ESP32 · ESP-IDF · ESP-NOW · Solenoid Lock · OLED · Buzzer
->
-> 🔗 [github.com/majidkhan-dev/wireless-door-lock-esp32](https://github.com/majidkhan-dev/wireless-door-lock-esp32)
-
----
-
-### 💊 DOSEMATIC — Automatic Medication Dispenser *(Commissioned, Delivered as Product)*
-> Motor rotates at dose time; TCRT5000 IR sensor detects remaining dose and prevents double dispensing; delivered in custom hardware enclosure
->
-> **Stack:** ESP32 · ESP-IDF · ULN2003 · DC Motor · TCRT5000
->
-> 🔗 [github.com/majidkhan-dev/dosemetic-esp-code](https://github.com/majidkhan-dev/dosemetic-esp-code)
-
----
-
-### 🐾 VetCare — Mobile App for Farmers
-> AI veterinary consultation via Claude API; Google Maps for nearby vet clinics; livestock stock & production management; login via Facebook, Google & email
->
-> **Stack:** React Native · Firebase · Claude API · Google Maps API
->
-> 🔗 [github.com/majidkhan-dev/AppDev](https://github.com/majidkhan-dev/AppDev)
-
----
-
-### 🛒 E-Commerce Database System
-> Backend system for managing user accounts, inventory & orders; REST API tested with Postman
->
-> **Stack:** Node.js · Express.js · MSSQL · Postman
->
-> 🔗 [github.com/majidkhan-dev/ecommerce-backend](https://github.com/majidkhan-dev/ecommerce-backend)
-
----
-
-### 🚨 PIR Sensor Alarm System
-> Motion detection system with audio alert (buzzer) and visual display on 2×16 LCD
->
-> **Stack:** ESP32 · ESP-IDF · PIR Sensor · Buzzer · LED · 2×16 LCD
->
-> 🔗 [github.com/majidkhan-dev/pir-motion-alarm-esp32](https://github.com/majidkhan-dev/pir-motion-alarm-esp32)
-
----
-
-
-## 📜 Certifications & Training
-
-- 🔌 **Microcontroller Embedded C Programming: Absolute Beginners** — Udemy *(05/2026)*
-- 🌐 **Full Stack Web Development** — PNY Trainings, Lahore *(03/2024 – 09/2024)*
-- 💻 **Full Stack Web Development Bootcamp** — Udemy *(02/2024 – 08/2024)*
-
----
-
-## 🌍 Languages
-
-| Language | Level |
+| Board | Details |
 |---|---|
-| Urdu | Native |
-| English | C1 — Fluent |
-| German | B2 — Business Proficient |
+| **MCU Data Logger** | 4-layer board: ATmega328P, DS1337 RTC, 2× 24LC1025 I2C EEPROM; hierarchical schematic, custom component library, BOM, version-controlled in Git |
+| **Solar Power Supply** | AP3015A boost converter (SMD), 2-layer; **passed NextPCB's DFM check** |
+| **Breadboard Power Supply** | LM7805 (5 V) + LM317 (adjustable), barrel-jack input, 2-layer |
+| **LED Torch** | First board: schematic → layout → Gerber/drill files |
+
+<!-- TODO: add repo links / 3D render images for each board -->
 
 ---
 
-## 💡 About Me
+## Web & Mobile Experience
 
-I'm a final-year **Computer Engineering** student with a dual focus on **Embedded Systems** and **Full Stack Web & Mobile Development**.
+**Full Stack Developer (Next.js)** · [EEPCSS](https://eepcss.com) · *03/2026*
+Official website for a CSS/PMS exam preparation institute, server-side rendered for speed and SEO.
 
-On the embedded side, I work with **ESP32, ESP-IDF, ESP-NOW** and **Raspberry Pi** — building real IoT systems including a commissioned medication dispenser delivered as a product, a wireless door lock system, and an AI-powered HVAC control system as my final year project.
+**Full Stack Developer (MERN)** · [Innovix99](https://innovix99.com) · *06–07/2025*
+Admin dashboard with full CRUD and a dynamic SEO management system.
 
-On the web and mobile side, I've delivered freelance projects for real clients using **MERN stack, Next.js and React Native** — including bilingual websites and a full AI-integrated mobile app using the Claude API.
+**Frontend Developer (React.js)** · [Ontrac IT Solutions](https://ontrac.biz) · *08–10/2023*
+Bilingual (Arabic/English) company website with a client inquiry system.
 
-Currently learning **STM32** and deepening my embedded systems expertise while continuing to build web and mobile solutions.
+**Projects:** [VetCare](https://github.com/majidkhan-dev/AppDev) — React Native app for farmers with AI vet consultation (Claude API) and Google Maps · [E-Commerce Backend](https://github.com/majidkhan-dev/ecommerce-backend) — Node.js, Express, MSSQL REST API
 
 ---
 
-## 📫 Connect With Me
+## Certifications
+
+- **PCB Design with KiCad – updated for KiCad 9** (32 hours) — Udemy *(10/2026)*
+- **Microcontroller Embedded C Programming: Absolute Beginners** — Udemy *(07/2026)*
+- **Full Stack Web Development** — PNY Trainings, Lahore *(03–09/2024)*
+- **Full Stack Web Development Bootcamp** — Udemy *(02–08/2024)*
+
+---
+
+## Languages
+
+Urdu (native) · English (C1, fluent) · German (B2) · French (A1)
+
+---
+
+## Connect
 
 <p align="center">
-  <a href="https://github.com/majidkhan-dev">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="mailto:khanmajid.dev@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://wa.me/923274403260">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/>
-  </a>
+  <a href="https://github.com/majidkhan-dev"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="mailto:khanmajid.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://wa.me/923274403260"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
 </p>
-
----
-
-<p align="center"><em>"Bridging hardware and software — one project at a time." 🔌💻</em></p>
