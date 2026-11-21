@@ -5,12 +5,23 @@
 </p>
 
 <p align="center">
-  BS Computer Engineering, COMSATS University Lahore (2026) &nbsp;|&nbsp; Lahore, Pakistan
+  Junior Design Engineer at BGC Alternate Energy &nbsp;|&nbsp; BS Computer Engineering, COMSATS University Lahore (2026) &nbsp;|&nbsp; Lahore, Pakistan
 </p>
 
 <p align="center">
   I build embedded systems with ESP32 &amp; ESP-IDF and design PCBs in KiCad, from 2-layer power supplies to 4-layer microcontroller boards.
 </p>
+
+<p align="center">
+  <a href="https://majidkhan.netlify.app"><b>Portfolio: majidkhan.netlify.app</b></a>
+</p>
+
+---
+
+## Experience
+
+**Junior Design Engineer** · BGC Alternate Energy (Pvt.) Limited, Lahore · *since 11/2026*
+**Freelance Embedded Developer** · self-employed · *since 07/2026* — embedded systems and firmware in C/C++ and Embedded C
 
 ---
 
@@ -27,7 +38,9 @@
   <img src="https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white"/>
 </p>
 
-**Protocols:** UART · I2C · SPI · MQTT · CoAP · BLE · ESP-NOW
+**Protocols:** UART · I2C · SPI · MQTT · CoAP · BLE · ESP-NOW · LoRa · OTA updates
+**Digital design:** VHDL · RTL design (FSM, ALU) · Intel Quartus · Cyclone IV FPGA
+**Control:** PID design and tuning in MATLAB/Simulink
 **PCB:** schematic capture · 2- and 4-layer layout · custom footprints & libraries · DRC / DFM · Gerber & drill files · BOM
 
 ### Languages
@@ -55,7 +68,9 @@
 
 ## Embedded Projects
 
-### AI-based Smart HVAC System — Final Year Project
+### AI-based Smart HVAC System — Final Year Project *(group project, grade A)*
+> **My part:** designed and built the battery-powered sensor nodes and the IR control node, wrote their ESP32 firmware in C, and modelled the building in DesignBuilder + EnergyPlus.
+>
 > LightGBM comfort model running on a Raspberry Pi 5 (also the MQTT broker); ESP32 sensor nodes with BME280, DS18B20 and PIR; the AC is controlled over IR towards Fanger PMV comfort setpoints; validated with hardware-in-the-loop simulation in DesignBuilder + EnergyPlus.
 >
 > **After graduation:** converted the model to plain C with m2cgen and moved inference and the MQTT broker onto a single **ESP32-S3**, removing the Raspberry Pi entirely.
@@ -69,7 +84,7 @@
 >
 > **Stack:** ESP32 · ESP-IDF · ULN2003 · DC motor · TCRT5000 · SSD1306
 >
-> [github.com/majidkhan-dev/dosemetic-esp-code](https://github.com/majidkhan-dev/dosemetic-esp-code)
+> [github.com/majidkhan-dev/dosematic-esp-code](https://github.com/majidkhan-dev/dosematic-esp-code)
 
 ### Wireless Door Lock System
 > Battery-powered two-node system using ESP-NOW (no Wi-Fi infrastructure needed); drives a solenoid lock with OLED and buzzer feedback.
@@ -85,18 +100,24 @@
 >
 > [github.com/majidkhan-dev/pir-motion-alarm-esp32](https://github.com/majidkhan-dev/pir-motion-alarm-esp32)
 
+### University Projects
+- **MIPS Processor in VHDL** — designed in VHDL and synthesised in Intel Quartus for a Cyclone IV FPGA (DE2-115); RTL design of an FSM and an ALU
+- **LoRa Sensor Network with OTA** — ESP32 + LoRa nodes with HW-330 soil-moisture sensing; firmware updates relayed node-to-node to the farthest node
+- **PID Control** — controller designed and gain-tuned in MATLAB/Simulink, then validated on hardware
+- **Mini UPS for a Wi-Fi Router** — Arduino Nano switches N-channel MOSFETs to charge 3× 18650 cells and switch to battery automatically during power cuts
+- **CMOS Ring Oscillator** — designed and simulated in Microwind
+
 ---
 
 ## PCB Design (KiCad)
 
 | Board | Details |
 |---|---|
-| **MCU Data Logger** | 4-layer board: ATmega328P, DS1337 RTC, 2× 24LC1025 I2C EEPROM; hierarchical schematic, custom component library, BOM, version-controlled in Git |
+| **MCU Data Logger** | 4-layer board: ATmega328P, DS1337 RTC, 2× 24LC1025 I2C EEPROM; hierarchical schematic, custom component library, BOM, version-controlled in Git · [repo](https://github.com/majidkhan-dev/MCU-DataLogger) |
 | **Solar Power Supply** | AP3015A boost converter (SMD), 2-layer; **passed NextPCB's DFM check** |
 | **Breadboard Power Supply** | LM7805 (5 V) + LM317 (adjustable), barrel-jack input, 2-layer |
 | **LED Torch** | First board: schematic → layout → Gerber/drill files |
 
-<!-- TODO: add repo links / 3D render images for each board -->
 
 ---
 
@@ -126,13 +147,14 @@ Bilingual (Arabic/English) company website with a client inquiry system.
 
 ## Languages
 
-Urdu (native) · English (C1, fluent) · German (B2) · French (A1)
+Urdu (native) · English (C1, IELTS Academic 8.0) · German (B2, Goethe-Zertifikat) · French (A1)
 
 ---
 
 ## Connect
 
 <p align="center">
+  <a href="https://majidkhan.netlify.app"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
   <a href="https://github.com/majidkhan-dev"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></a>
   <a href="mailto:khanmajid.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
   <a href="https://wa.me/923274403260"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
