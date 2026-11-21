@@ -105,7 +105,6 @@
 - **LoRa Sensor Network with OTA** — ESP32 + LoRa nodes with HW-330 soil-moisture sensing; firmware updates relayed node-to-node to the farthest node
 - **PID Control** — controller designed and gain-tuned in MATLAB/Simulink, then validated on hardware
 - **Mini UPS for a Wi-Fi Router** — Arduino Nano switches N-channel MOSFETs to charge 3× 18650 cells and switch to battery automatically during power cuts
-- **CMOS Ring Oscillator** — designed and simulated in Microwind
 
 ---
 
@@ -132,7 +131,7 @@ Admin dashboard with full CRUD and a dynamic SEO management system.
 **Frontend Developer (React.js)** · [Ontrac IT Solutions](https://ontrac.biz) · *08–10/2023*
 Bilingual (Arabic/English) company website with a client inquiry system.
 
-**Projects:** [VetCare](https://github.com/majidkhan-dev/AppDev) — React Native app for farmers with AI vet consultation (Claude API) and Google Maps · [E-Commerce Backend](https://github.com/majidkhan-dev/ecommerce-backend) — Node.js, Express, MSSQL REST API
+**Projects:** [E-Commerce Backend](https://github.com/majidkhan-dev/ecommerce-backend) — Node.js, Express, MSSQL REST API
 
 ---
 
@@ -147,7 +146,7 @@ Bilingual (Arabic/English) company website with a client inquiry system.
 
 ## Languages
 
-Urdu (native) · English (C1, IELTS Academic 8.0) · German (B2, Goethe-Zertifikat) · French (A1)
+Urdu (native) · English (C1, IELTS Academic 8.0) · German (B2, Goethe-Zertifikat)
 
 ---
 
